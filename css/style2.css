@@ -47,7 +47,7 @@ button {
     height: 100vh;
     background-color: rgb(0, 0, 0);
     visibility: hidden;
-    opacity: 0;
+    
     transition: visibility 0.4s ease 0s, opacity 0.4s cubic-bezier(0.19, 0.96, 0.52, 1) 0s;
     will-change: opacity;
 }
@@ -81,7 +81,7 @@ button {
     width: 180px;
     height: 25px;
     margin-bottom: 40px;
-    background-image: url(../images/8068a01f50b06fc3cde7c98141bfa428.svg);
+    background-image: url(https://s.pximg.net/www/js/fanbox/8068a01….svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -179,7 +179,7 @@ button {
     margin-right: 6px;
     width: 20px;
     height: 20px;
-    background-image: url(../images/67832a214aece5a8ecd4840472621dd1.svg);
+    background-image: url(https://s.pximg.net/www/js/fanbox/67832a2….svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -241,11 +241,11 @@ button {
 .fJmlpJ {
   width: 32px;
   height: 32px;
-  background: url("../images/7afef3702f42e968cbad8e62e59e699a.svg") center center no-repeat;
+  background: url("https://s.pximg.net/www/js/fanbox/7afef3702f42e968cbad8e62e59e699a.svg") center center no-repeat;
 }
 
 .ahDDk {
-  background: url("../images/8068a01f50b06fc3cde7c98141bfa428.svg") center center / 148px 20px no-repeat;
+  background: url("https://s.pximg.net/www/js/fanbox/8068a01f50b06fc3cde7c98141bfa428.svg") center center / 148px 20px no-repeat;
   width: 148px;
   height: 20px;
 }
@@ -263,16 +263,10 @@ button {
   width: 240px;
   margin-right: 16px;
 }
-  @media (max-width: 767px){
-.iZJECp {
-  width: 100%;
-}}
-
-
 .dyAOCU {
   position: absolute;
   display: block;
-  background-image: url("../images/796dbd534e204ca1bb71db31cef97e03.svg");
+  background-image: url("https://s.pximg.net/www/js/fanbox/796dbd534e204ca1bb71db31cef97e03.svg");
   left: 14px;
   top: 12px;
   width: 12px;
@@ -293,12 +287,6 @@ button {
   line-height: 14px;
   font-size: 14px;
 }
-@media (max-width: 767px){
-.cNuemT {
-  line-height: 16px;
-  font-size: 16px;
-}}
-
 
 .bEwjOb {
   display: none;
@@ -318,7 +306,7 @@ button {
   content: "";
   position: absolute;
   display: block;
-  background-image: url("../images/796dbd534e204ca1bb71db31cef97e03.svg");
+  background-image: url("https://s.pximg.net/www/js/fanbox/796dbd534e204ca1bb71db31cef97e03.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -358,57 +346,47 @@ button {
 }
 
 
-.eGPgqS {
-  z-index: 60;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(0, 0, 0);
-  transition: visibility 0.4s ease 0s, opacity 0.4s cubic-bezier(0.19, 0.96, 0.52, 1) 0s;
-  will-change: opacity;
-  visibility: visible;
-  opacity: 0.5;
-}
-.cAZPS {
-  overflow: auto;
-  z-index: 60;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  box-sizing: border-box;
-  height: 100vh;
-  width: 260px;
-  border-right: 1px solid rgba(0, 0, 0, 0.05);
-  background-color: rgb(255, 255, 255);
-  transition: transform 0.4s cubic-bezier(0.19, 0.96, 0.52, 1) 0s;
-  will-change: transform;
-  transform: translateX(0%);
-}
+
 
 
 .kcVwCM {
   flex: 1 1 0%;
 }
-
+.iZJECp {
+  position: relative;
+  width: 240px;
+  margin-right: 16px;
+}
 .dyAOCU {
   position: absolute;
   display: block;
-  background-image: url("../images/796dbd534e204ca1bb71db31cef97e03.svg");
+  background-image: url("https://s.pximg.net/www/js/fanbox/796dbd534e204ca1bb71db31cef97e03.svg");
   left: 14px;
   top: 12px;
   width: 12px;
   height: 12px;
 }
-
+.cNuemT {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 8px 16px 8px 32px;
+  border: 1px solid transparent;
+  background-color: rgb(245, 245, 245);
+  color: rgb(51, 51, 51);
+  appearance: none;
+  outline: currentcolor none medium;
+  border-radius: 50px;
+  line-height: 14px;
+  font-size: 14px;
+}
 .lioECf {
   position: relative;
   width: 32px;
   height: 32px;
   margin: 0px 2px;
 }
-.lioECf::before {
+lioECf::before {
   content: "";
   position: absolute;
   display: block;
@@ -748,14 +726,14 @@ img {
   left: 0px;
   width: 100%;
   height: 68%;
-  background: url("../images/bdzigj3qxlg5oydjax09vbsf.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/1620x580_90_a2_g5/fanbox/public/images/creator/5097386/cover/bdzigJ3QxLG5OYdjax09vBSf.jpeg") center center / cover no-repeat;
 }
 .gzCgPi {
   width: 48px;
   height: 48px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
-  background: url("../images/qucrbrbnjmglbjnowzd8gdx4.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/160x160_90_a2_g5/fanbox/public/images/user/5097386/icon/quCRbrBNJMGlBjnOWZD8GdX4.jpeg") center center / cover no-repeat;
 }
 .dCNPAq {
   position: absolute;
@@ -763,14 +741,14 @@ img {
   left: 0px;
   width: 100%;
   height: 68%;
-  background: url("../images/heflogqcxww40t0ib7xllu7l.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/1620x580_90_a2_g5/fanbox/public/images/creator/35981877/cover/HEflOGQCXWw40t0iB7XLLU7L.jpeg") center center / cover no-repeat;
 }
 .gZIODP {
   width: 48px;
   height: 48px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
-  background: url("../images/uiuumfkryowjlnkix3h6kre7.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/160x160_90_a2_g5/fanbox/public/images/user/35981877/icon/uiuUmfkRyoWJlNKIx3H6Kre7.jpeg") center center / cover no-repeat;
 }
 .iUyAls {
   position: absolute;
@@ -778,14 +756,14 @@ img {
   left: 0px;
   width: 100%;
   height: 68%;
-  background: url("../images/e8p8lv9hls3mqu3zqaztmgoo.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/1620x580_90_a2_g5/fanbox/public/images/creator/56772473/cover/e8p8LV9HLS3mQU3ZqAzTmGOo.jpeg") center center / cover no-repeat;
 }
 .mdkWp {
   width: 48px;
   height: 48px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
-  background: url("../images/qhfolrf9jaoim2suflrapjgw.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/160x160_90_a2_g5/fanbox/public/images/user/56772473/icon/QHfOlRF9jAoiM2SuFLrApJGw.jpeg") center center / cover no-repeat;
 }
 .blYMGK {
   position: absolute;
@@ -793,14 +771,14 @@ img {
   left: 0px;
   width: 100%;
   height: 68%;
-  background: url("../images/i0kegs1xrweyzm3zyuucrzjg.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/1620x580_90_a2_g5/fanbox/public/images/creator/2063338/cover/i0KeGS1xrweyzM3ZyuucRZjG.jpeg") center center / cover no-repeat;
 }
 .ceukgK {
   width: 48px;
   height: 48px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
-  background: url("../images/jgllkqhhw1udc8xzabwtrouj.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/160x160_90_a2_g5/fanbox/public/images/user/2063338/icon/JGLLKqHhW1uDC8XZaBwtROUj.jpeg") center center / cover no-repeat;
 }
 .gkfIsI {
   position: absolute;
@@ -808,14 +786,14 @@ img {
   left: 0px;
   width: 100%;
   height: 68%;
-  background: url("../images/x7w2auem64mpxnitwa0wpox4.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/1620x580_90_a2_g5/fanbox/public/images/creator/34024211/cover/X7W2AUEm64MPXnItWA0wPOx4.jpeg") center center / cover no-repeat;
 }
 .dMzRdH {
   width: 48px;
   height: 48px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
-  background: url("../images/fjio7szhogwzogwj4m1gqkna.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/160x160_90_a2_g5/fanbox/public/images/user/34024211/icon/FjiO7SZhOgwzoGWJ4M1GqkNa.jpeg") center center / cover no-repeat;
 }
 .gebAEP {
   position: absolute;
@@ -823,14 +801,14 @@ img {
   left: 0px;
   width: 100%;
   height: 68%;
-  background: url("../images/kwcgg86at0jq6xqt1qcbym9o.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/1620x580_90_a2_g5/fanbox/public/images/creator/220168/cover/kWcgg86At0jq6XQt1qCByM9O.jpeg") center center / cover no-repeat;
 }
 .fAWRAY {
   width: 48px;
   height: 48px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
-  background: url("../images/g8qbyjpc1brozkiym3r3nimk.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/160x160_90_a2_g5/fanbox/public/images/user/220168/icon/G8qbyjPc1BROzkIym3r3NIMK.jpeg") center center / cover no-repeat;
 }
 
 
@@ -867,7 +845,7 @@ img {
   left: 0px;
   width: 100%;
   height: 68%;
-  background: url("../images/ephebhwbbcvdjd5ui2rfqxrq.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/1620x580_90_a2_g5/fanbox/public/images/creator/83739/cover/ePhEbhwBbcVDJd5uI2rfqXrq.jpeg") center center / cover no-repeat;
 }
 
 .kMqaGM {
@@ -888,7 +866,7 @@ img {
   height: 48px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
-  background: url("../images/u8oofv8pjxyzuqo7nyt9ebc4.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/160x160_90_a2_g5/fanbox/public/images/user/83739/icon/u8OOfV8pjxYzUqO7nyT9eBc4.jpeg") center center / cover no-repeat;
 }
 
 .ixAfYO {
@@ -943,7 +921,7 @@ img {
   left: 0px;
   width: 100%;
   height: 68%;
-  background: url("../images/orojeep2x58dtgwooc8kiyj1.jpeg") center center / cover no-repeat;
+  background: url("https://pixiv.pximg.net/c/1620x580_90_a2_g5/fanbox/public/images/creator/74786027/cover/OroJeeP2x58DtGwooc8kIYJ1.jpeg") center center / cover no-repeat;
 }
 
 
@@ -1174,7 +1152,7 @@ img {
   right: 0px;
   width: 100%;
   height: 100%;
-  background: url("../images/e804e71f95fe47c5abb721028506b294.svg") center center / 120% no-repeat;
+  background: url("https://s.pximg.net/www/js/fanbox/e804e71f95fe47c5abb721028506b294.svg") center center / 120% no-repeat;
 }
 .dbnEbf {
   position: absolute;
@@ -1188,7 +1166,7 @@ img {
 .kqsZAJ {
   width: 26%;
   height: 26%;
-  background: url("../images/d4dadff55817355e1ae490f341c56609.svg") center center / contain no-repeat;
+  background: url("https://s.pximg.net/www/js/fanbox/d4dadff55817355e1ae490f341c56609.svg") center center / contain no-repeat;
 }
 .dbnEbf {
   position: absolute;
@@ -1291,7 +1269,7 @@ img {
   right: 4%;
   width: 86%;
   height: 86%;
-  background: url("../images/d04e7b161cb675a31ecfeb0a3d5020df.png") center center / contain no-repeat;
+  background: url("https://s.pximg.net/www/js/fanbox/d04e7b161cb675a31ecfeb0a3d5020df.png") center center / contain no-repeat;
   animation: 2.4s ease-in-out 0.2s infinite normal none running fdfTkW;
 }
 .Iysmu {
@@ -1387,9 +1365,7 @@ img {
 .bwlhbA {
   position: relative;
 }
-.bwHAbR {
 
-}
 .dVstQY {
   position: absolute;
   top: 0px;
@@ -1627,7 +1603,7 @@ display: none
   left: 0px;
   width: 40%;
   height: 40%;
-  background: url("../images/aa5a753cd75e8585438fa8fdb80772c0.png") center center / contain no-repeat;
+  background: url("https://s.pximg.net/www/js/fanbox/aa5a753cd75e8585438fa8fdb80772c0.png") center center / contain no-repeat;
   transform-origin: center bottom 0px;
   animation: 2.6s ease-in-out 0s infinite normal none running hJBZxT;
 }
@@ -1641,7 +1617,7 @@ display: none
   right: 0px;
   width: 60%;
   height: 90%;
-  background: url("../images/03bc3446eaaf2e66f8521b86816a9eb2.png") center center / contain no-repeat;
+  background: url("https://s.pximg.net/www/js/fanbox/03bc3446eaaf2e66f8521b86816a9eb2.png") center center / contain no-repeat;
   transform-origin: center bottom 0px;
   animation: 3s ease-in-out 0s infinite normal none running dJqNGK;
 }
@@ -1652,7 +1628,7 @@ display: none
   left: 15%;
   width: 50%;
   height: 38%;
-  background: url("../images/e5c2ca216350bcb2319bdd6398ee1d4e.png") center center / contain no-repeat;
+  background: url("https://s.pximg.net/www/js/fanbox/e5c2ca216350bcb2319bdd6398ee1d4e.png") center center / contain no-repeat;
   transform-origin: center bottom 0px;
   animation: 2s ease-in-out 0.4s infinite normal none running eEigzX;
 }
@@ -1813,7 +1789,7 @@ display: none
   right: 4%;
   width: 86%;
   height: 86%;
-  background: url("../images/29c3ffe8807a709a0b7786286525dd1d.png") center center / contain no-repeat;
+  background: url("https://s.pximg.net/www/js/fanbox/29c3ffe8807a709a0b7786286525dd1d.png") center center / contain no-repeat;
   animation: 2.4s ease-in-out 0.2s infinite normal none running fdfTkW;
 }
 .bhMHuG {
